@@ -1,0 +1,181 @@
+🤖 CRAFT-Z23
+
+Autonomous VTuber AI Core
+
+Secure • Community-Oriented • Non-Commercial
+
+CRAFT-Z23 es un núcleo de software de inteligencia artificial diseñado para la interacción autónoma en tiempo real (VTuber / chat / agentes conversacionales), con memoria persistente, personalidad evolutiva y un enfoque estricto en seguridad, control y soberanía tecnológica.
+
+⚠️ CRAFT-Z23 NO es software open source tradicional.
+
+---
+
+🎯 OBJETIVO DEL PROYECTO
+
+CRAFT-Z23 existe para:
+
+· Personas naturales
+· Comunidades
+· Educación pública
+· Investigación no comercial
+· Experimentación responsable con IA autónoma
+
+El proyecto rechaza explícitamente el uso corporativo, académico privado o cualquier forma de explotación comercial directa o indirecta.
+
+---
+
+⚖️ AVISO LEGAL (IMPORTANTE)
+
+CRAFT-Z23 es una obra protegida por derechos de autor. El uso de este software está permitido únicamente bajo los términos de la CRAFT-Z23 Community & Public License (CZ23-CPL).
+
+❌ No está permitido su uso por:
+
+· Empresas o startups
+· Universidades, escuelas o academias privadas
+· Institutos de investigación privados
+· ONG o fundaciones con financiamiento empresarial
+· Entidades público-privadas
+· Cualquier uso comercial directo o indirecto
+
+El uso de este repositorio sin aceptar la licencia constituye una violación a los derechos de autor.
+
+📜 Ver LICENSE.md para los términos legales completos
+📄Ver LICENSE-SHORT.md para un resumen comprensible
+
+---
+
+🧠 DESCRIPCIÓN GENERAL
+
+CRAFT-Z23 no es un chatbot simple. Es un sistema modular compuesto por:
+
+· Núcleo cognitivo
+· Estado emocional
+· Memoria persistente
+· Motor de decisiones
+· Capa de seguridad
+· Interfaz desacoplada de LLM
+
+El sistema está diseñado para funcionar de forma estable, sin requerir GPU ni entrenamiento de modelos.
+
+---
+
+🧩 ARQUITECTURA GENERAL (RESUMEN)
+
+```
+Usuario / Chat / Plataforma
+        ↓
+  Rate Limiter
+        ↓
+  Prompt Guard
+        ↓
+ VTuber Adapter
+        ↓
+  CRAFT-Z23 Core
+    ├─ Personality
+    ├─ Emotional State
+    ├─ Memory
+    └─ Decision Engine
+        ↓
+ Response Generator
+        ↓
+ LLM Interface (API o modelo local)
+        ↓
+   Respuesta (texto / voz / avatar)
+```
+
+---
+
+📁 ESTRUCTURA DEL PROYECTO
+
+```
+CRAFT-Z23/
+│
+├── main.py
+├── craft_z23_core.py
+├── personality.py
+├── emotional_state.py
+├── memory.py
+├── decision_engine.py
+├── llm_interface.py
+├── response_generator.py
+├── vtuber_adapter.py
+│
+├── rate_limiter.py
+├── prompt_guard.py
+├── watchdog.py
+│
+├── config.json
+├── craft_z23_memory.json
+├── audit_log.json
+│
+├── LICENSE.md
+├── LICENSE-SHORT.md
+└── README.md
+```
+
+---
+
+🔐 SEGURIDAD
+
+CRAFT-Z23 incluye medidas de seguridad desde el diseño:
+
+· Limitación de mensajes (anti-spam)
+· Protección contra prompt injection
+· Watchdog de estabilidad
+· Separación estricta entre lógica y LLM
+· Sin ejecución de comandos del sistema
+· Sin auto-modificación del código
+
+La autonomía es controlada, no absoluta.
+
+---
+
+🚀 EJECUCIÓN BÁSICA
+
+Requisitos:
+
+· Python 3.10 o superior
+· Sistema operativo: Windows, Linux o macOS
+
+Ejecutar:
+
+```bash
+python main.py
+```
+
+Modo inicial:
+
+· Consola (CLI)
+· Preparado para integración con Twitch / YouTube / OBS
+
+---
+
+🧪 ESTADO DEL PROYECTO
+
+· Versión: v1.0 Core
+· Estado: Estable
+· Autonomía: Controlada
+· Seguridad: Alta
+· Dependencia de GPU: No requerida
+
+---
+
+🧭 FILOSOFÍA
+
+“La autonomía sin control no es inteligencia, es riesgo.”
+
+CRAFT-Z23 prioriza:
+
+· Responsabilidad
+· Estabilidad
+· Transparencia
+· Uso comunitario
+· Protección frente a explotación privada
+
+---
+
+📌 NOTA FINAL
+
+CRAFT-Z23 es una base técnica seria, no un experimento improvisado. Su uso implica responsabilidad legal y ética.
+
+📧 Contacto: dev.start.project@gmail.com
